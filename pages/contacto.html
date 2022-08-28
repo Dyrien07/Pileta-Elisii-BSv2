@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilo.css">
+
+    <title>Azul Marino BS</title>
+</head>
+<body class = container-fluid>
+        <div class="row">
+            <!-- Nav y logo -->
+            <div class="col-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img class="logoazulmarino" src="/assets/img/logoazulmarino.jpg" alt="logoazulmarino"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/pages/quienessomos.html">Quienes Somos?</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Form  de contacto -->
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <form class="row g-3">
+                <div class="col-md-4">
+                  <label for="validationServer01" class="form-label">Nombre Completo</label>
+                  <input type="text" class="form-control " id="validationServer01" value="" placeholder="Nombre" required>
+                  <div class="valid-feedback">
+                   
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationServer02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control " id="validationServer02" placeholder="Apellido" value="" required>
+                  <div class="valid-feedback">
+                    
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationServerUsername" class="form-label">Email</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend3"></span>
+                    <input type="email" class="form-control " id="validationServerUsername" placeholder="Email" value="" requiredaria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer03" class="form-label">Numero de Telefono</label>
+                  <input type="tel" class="form-control " id="validationServer03" placeholder="Numero de Telefono"aria-describedby="validationServer03Feedback" required>
+                  <div id="validationServer03Feedback" class="invalid-feedback">
+                  </div>
+                  <div class="col-md-6">
+                      <label for="validationServer03" class="form-label">Edad</label>
+                    <input type="" class="form-control " id="validationServer03" placeholder="Edad" aria-describedby="validationServer03Feedback aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      Agree to terms and conditions
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+        </div>
+    </div>
+     <!-- Footer -->
+     <div class="row">
+        <div class="col-12 col-lg-6">
+            <h1>Direccion</h1>
+            <P>
+                Juan Jose Castelli 5750, Carapachay
+            </P>
+        </div>
+        <div class="col-12 col-lg-6">
+            <h1>Redes Sociales</h1>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1"><a href="#" target = "_blank"><img  src="../assets/img/logoinsta200x200.png" alt="logoinsta"></li></a></label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2"><a href="#" target = "_blank"><img src="../assets/img/wsp200x200.png" alt="logowsp"></a></label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3"><a href="#" target="_blank"><img src="../assets/img/facelogo200x200.png" alt="Logoface"></a></label>
+              </div>
+        </div>
+        
+    </div>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+    
+        
+</body>
