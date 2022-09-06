@@ -1,11 +1,9 @@
+.azulmarino {
+  width: 200px; }
 
-.logoazulmarino{
-    width: 200px;
-}
-.btn-outline-primary{
-   border: none;
-   padding: 5px;   
-}
-div label img{
-    width: 50px;
-}
+.btn-outline-primary {
+  border: none;
+  padding: 5px; }
+
+div label img {
+  width: 50px; }
