@@ -7,19 +7,22 @@
   width: 30px; }
 
 .bi-instagram {
-  font-size: 40px;
+  width: 30px;
+  height: 30px;
   color: black; }
   .bi-instagram:hover {
     color: #833AB4; }
 
 .bi-facebook {
-  font-size: 40px;
+  width: 30px;
+  height: 30px;
   color: black; }
   .bi-facebook:hover {
     color: #4267B2; }
 
 .bi-whatsapp {
-  font-size: 40px;
+  width: 30px;
+  height: 30px;
   color: black; }
   .bi-whatsapp:hover {
     color: #25D366; }
@@ -28,4 +31,5 @@
   width: 30px; }
 
 div label i {
-  font-size: 30px; }
+  width: 400px;
+  background-color: red; }
