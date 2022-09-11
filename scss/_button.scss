@@ -1,4 +1,13 @@
 .btn-outline-primary{
     border: none;
-    padding: 5px;
+    padding: 5px;   
+}
+.bi-instagram{
+    @include redes-color($color-insta);
+}
+.bi-facebook{
+    @include redes-color($color-fb);
+}
+.bi-wp{
+    @include redes-color($color-wp);
 }

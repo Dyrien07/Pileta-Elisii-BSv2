@@ -1,9 +1,18 @@
-.azulmarino {
+.logoazulmarino {
   width: 200px; }
 
 .btn-outline-primary {
   border: none;
   padding: 5px; }
+
+.bi-instagram:hover {
+  background-color: #833AB4; }
+
+.bi-facebook:hover {
+  background-color: #4267B2; }
+
+.bi-wp:hover {
+  background-color: #25D366; }
 
 div label img {
   width: 50px; }

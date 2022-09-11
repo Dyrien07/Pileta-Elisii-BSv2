@@ -1,0 +1,3 @@
+@mixin redes-color($color) {
+    &:hover{ background-color: $color;}  
+}
