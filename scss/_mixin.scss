@@ -1,5 +1,12 @@
 @mixin redes-color($color) {
-font-size: 40px;
-    color: black;
+font-size: 40px; 
+color: black;  
     &:hover{ color: $color;}  
+}
+@mixin header-color($color) {
+    text-decoration-color: black; 
+    text-decoration: none;
+    &:hover{ color: $color;
+            font-size: 20px;
+    }
 }

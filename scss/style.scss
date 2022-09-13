@@ -3,3 +3,32 @@
 @import "header";
 @import "button";
 @import "footer";
+
+    
+
+
+.card-detalles{
+    @extend .card;
+   border-radius: 5%;
+    margin-top: 20px;
+    padding: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+}
+.card{
+    img{
+        border-radius: 5%;
+    }
+}
+.btn-color-rojo{
+@include header-color(map-get($colores-header, $key: rojo));
+}
+.btn-color-azul{
+    @include header-color(map-get($colores-header, $key: azul ));    
+}
+.btn-color-celeste{
+    @include header-color(map-get($colores-header, $key: celeste ));
+}
+.btn-color-naranja{
+    @include header-color(map-get($colores-header, $key: naranja ));
+}

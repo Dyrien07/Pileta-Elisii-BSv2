@@ -1,10 +1,16 @@
 .logoazulmarino {
   width: 200px; }
 
+.nav-color-rojo {
+  text-decoration-color: black;
+  text-decoration: none; }
+  .nav-color-rojo:hover {
+    color: #f03a0d;
+    font-size: 20px; }
+
 .btn-outline-primary {
   border: none;
-  padding: 5px;
-  width: 30px; }
+  padding: 5px; }
 
 .bi-instagram {
   font-size: 40px;
@@ -24,8 +30,40 @@
   .bi-whatsapp:hover {
     color: #25D366; }
 
-.bi {
-  width: 30px; }
+.card-detalles {
+  border-radius: 5%;
+  margin-top: 20px;
+  padding: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.34);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.34); }
 
-div label i {
-  font-size: 30px; }
+.card img, .card-detalles img {
+  border-radius: 5%; }
+
+.btn-color-rojo {
+  text-decoration-color: black;
+  text-decoration: none; }
+  .btn-color-rojo:hover {
+    color: #f03a0d;
+    font-size: 20px; }
+
+.btn-color-azul {
+  text-decoration-color: black;
+  text-decoration: none; }
+  .btn-color-azul:hover {
+    color: blue;
+    font-size: 20px; }
+
+.btn-color-celeste {
+  text-decoration-color: black;
+  text-decoration: none; }
+  .btn-color-celeste:hover {
+    color: #179fcd;
+    font-size: 20px; }
+
+.btn-color-naranja {
+  text-decoration-color: black;
+  text-decoration: none; }
+  .btn-color-naranja:hover {
+    color: #d67112;
+    font-size: 20px; }

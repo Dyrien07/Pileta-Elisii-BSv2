@@ -1,7 +1,7 @@
 .btn-outline-primary{
     border: none;
     padding: 5px; 
-    width: 30px;  
+    
 }
 .bi-instagram{
     @include redes-color($color-insta);
@@ -12,6 +12,4 @@
 .bi-whatsapp{
     @include redes-color($color-wp);
 }
-.bi{
-    width: 30px;
-}
+
