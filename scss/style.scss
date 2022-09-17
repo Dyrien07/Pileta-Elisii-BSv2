@@ -32,3 +32,13 @@
 .btn-color-naranja{
     @include header-color(map-get($colores-header, $key: naranja ));
 }
+
+
+.nav-link{
+    &:hover{
+    border-bottom: 4px solid red; 
+    transition-property: border-bottom;
+    transition-delay: 0.3s;
+
+};
+}

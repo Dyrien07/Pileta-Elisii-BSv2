@@ -67,3 +67,8 @@
   .btn-color-naranja:hover {
     color: #d67112;
     font-size: 20px; }
+
+.nav-link:hover {
+  border-bottom: 4px solid red;
+  transition-property: border-bottom;
+  transition-delay: 0.3s; }
