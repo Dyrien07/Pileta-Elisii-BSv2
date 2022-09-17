@@ -1,7 +1,25 @@
 .logoazulmarino
 {
-width: 200px;
+width: 310px;
 }
 .nav-color-rojo {
  @include header-color(map-get($map:$colores-header, $key: rojo ));
 }
+.nav-item{
+   
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav-item{
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: red;
+        height: 4px;
+        width: 0%;
+        transition: 0.3s;
+    }
+    &:hover::after{
+    width: 10%;
+    }
+};
