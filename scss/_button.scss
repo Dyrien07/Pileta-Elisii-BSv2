@@ -1,7 +1,9 @@
 .btn-outline-primary{
     border: none;
     padding: 5px; 
+    border-radius: 5px;
     
+ 
 }
 .bi-instagram{
     @include redes-color($color-insta);
@@ -13,3 +15,9 @@
     @include redes-color($color-wp);
 }
 
+.btn-primary{
+    background-color: rgba(0, 0, 255, 0.829);
+    
+    border-radius: 20px;
+    width: 50%;
+}

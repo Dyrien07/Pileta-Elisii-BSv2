@@ -10,14 +10,24 @@
 .card-detalles{
     @extend .card;
    border-radius: 5%;
-    margin-top: 20px;
-    padding: 5px;
+    margin: 20px;
+    padding: 10px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
+    width: 60%;
+   
+ 
+    
+   
 }
 .card{
+    width: 100%;
+    margin-top: 50px;
+ 
     img{
         border-radius: 5%;
+        width: 100%;
+        
     }
 }
 .btn-color-rojo{
@@ -33,4 +43,9 @@
     @include header-color(map-get($colores-header, $key: naranja ));
 }
 
-
+.carousel-item{
+    height: 1000px;
+    img{
+        height: 1000px;
+    }
+}

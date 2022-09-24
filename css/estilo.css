@@ -25,7 +25,8 @@
 
 .btn-outline-primary {
   border: none;
-  padding: 5px; }
+  padding: 5px;
+  border-radius: 5px; }
 
 .bi-instagram {
   font-size: 40px;
@@ -45,15 +46,29 @@
   .bi-whatsapp:hover {
     color: #25D366; }
 
+.btn-primary {
+  background-color: rgba(0, 0, 255, 0.829);
+  border-radius: 20px;
+  width: 50%; }
+
+.footer {
+  background-color: lightsteelblue;
+  margin-top: 100px; }
+
 .card-detalles {
   border-radius: 5%;
-  margin-top: 20px;
-  padding: 5px;
+  margin: 20px;
+  padding: 10px;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.34);
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.34); }
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.34);
+  width: 60%; }
 
-.card img, .card-detalles img {
-  border-radius: 5%; }
+.card, .card-detalles {
+  width: 100%;
+  margin-top: 50px; }
+  .card img, .card-detalles img {
+    border-radius: 5%;
+    width: 100%; }
 
 .btn-color-rojo {
   text-decoration-color: black;
@@ -83,14 +98,7 @@
     color: #d67112;
     font-size: 20px; }
 
-.nav-item::after {
-  content: "";
-  position: absolute;
-  background-color: red;
-  height: 3px;
-  width: 0%;
-  bottom: 1px;
-  transition: 0.3s; }
-
-.nav-item:hover::after {
-  width: 5%; }
+.carousel-item {
+  height: 1000px; }
+  .carousel-item img {
+    height: 1000px; }
