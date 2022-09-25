@@ -1,6 +1,7 @@
 .logoazulmarino
 {
 width: 310px;
+padding-bottom: 20px;
 }
 .nav-color-rojo {
  @include header-color(map-get($map:$colores-header, $key: rojo ));

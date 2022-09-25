@@ -1,5 +1,6 @@
 .logoazulmarino {
-  width: 310px; }
+  width: 310px;
+  padding-bottom: 20px; }
 
 .nav-color-rojo {
   text-decoration-color: black;
@@ -54,6 +55,8 @@
 .footer {
   background-color: lightsteelblue;
   margin-top: 100px; }
+  .footer h2 {
+    padding-top: 20px; }
 
 .card-detalles {
   border-radius: 5%;
@@ -97,8 +100,3 @@
   .btn-color-naranja:hover {
     color: #d67112;
     font-size: 20px; }
-
-.carousel-item {
-  height: 1000px; }
-  .carousel-item img {
-    height: 1000px; }
